@@ -1,0 +1,21 @@
+{
+  "name": "electron-babylon",
+  "version": "1.0.0",
+  "description": "Electron+Bablyon.js boilerplate",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "Matthew Frey <matthewfrey118@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/mmmeff/electron-babylon",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
