@@ -11,14 +11,16 @@ html, body {
     box-sizing: border-box;
 }
 
-#render-canvas, #ui {
+#render-canvas {
     height: 100%;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 #ui {
     padding: 40px;
-    pointer-events: none;
+    position: relative;
+    z-index: 2;
 }

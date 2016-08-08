@@ -19,7 +19,7 @@ export default class Renderer {
         // light.intensity = 1;
 
         // Let's try our built-in 'sphere' shape. Params: name, subdivisions, size, scene
-        var sphere = Babylon.Mesh.CreateSphere("sphere1", 32, 1.25, scene);
+        var sphere = Babylon.Mesh.CreateSphere("sphere1", 16, 1.25, scene);
         sphere.position.y = 0.75;
         sphere.material = new Babylon.StandardMaterial('sphereMaterial', scene);
         sphere.material.diffuseColor = new Babylon.Color3.FromHexString('#BE2430');
