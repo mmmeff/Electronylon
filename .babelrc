@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "es2015",
+        "react"
+    ],
+    "ignore": [
+        "babylon-2.4.js"
+    ]
+}

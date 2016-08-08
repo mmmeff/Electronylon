@@ -1,13 +1,13 @@
-![Electronylon](/../master/assets/electronylon-icontext.png)
+![Electronylon](/../master/assets/art/web/electronylon-icontext.png)
 
-# Electronylon
-## Electron + Babylon.js boilerplate
+## Electronylon, the Electron, Babylon.js, & React boilerplate
+
 
 ```bash
 # Clone this repository
-git clone https://github.com/mmmeff/electronylon
+git clone https://github.com/mmmeff/Electronylon
 # Go into the repository
-cd electronylon
+cd Electronylon
 # Install dependencies and run the app
 npm install && npm start
 ```

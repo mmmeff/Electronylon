@@ -2,7 +2,7 @@
   "name": "electron-babylon",
   "version": "1.0.0",
   "description": "Electron+Bablyon.js boilerplate",
-  "main": "main.js",
+  "main": "bootstrapper.js",
   "scripts": {
     "start": "electron ."
   },
@@ -17,5 +17,12 @@
   "homepage": "https://github.com/mmmeff/electron-babylon",
   "devDependencies": {
     "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.11.6",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   }
 }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Electronylon</title>
+        <link rel="stylesheet" href="app/ui/app.css" />
+    </head>
+    <body>
+        <canvas id="render-canvas">
+            <!-- Babylon app bootstraps here -->
+        </canvas>
+        <div id="ui">
+            <!-- React app bootstraps here -->
+        </div>
+
+        <script>
+            require('babel-register');
+
+            require('./app/ui');
+            require('./app/renderer');
+        </script>
+    </body>
+</html>
